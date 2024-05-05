@@ -1,6 +1,7 @@
 import express from 'express'
 import cors from 'cors'
 import userRoute from './routes/userRouter.js'
+
 const app = express()
 const PORT = process.env.PORT || 3000
 
